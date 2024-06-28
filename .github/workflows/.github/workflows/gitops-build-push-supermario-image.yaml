@@ -19,5 +19,5 @@ jobs:
 
       - name: Build and Push Docker Image
         run: |
-          docker build -t docker.io/rajeshr340/supermariogitops:tagname .
+          docker build -t docker.io/rajeshr340/supermariogitops:v1 .
           docker push rajeshr340/supermariogitops:v1
